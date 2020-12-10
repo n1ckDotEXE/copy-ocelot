@@ -1,0 +1,82 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#covid {
+    display: flex;
+    height: 50px;
+    background-color: rgb(39,153,205);
+}
+
+#covid-resource {
+    height: 25px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+#square {
+    height: 32px;
+    width: 100px
+}
+#cart {
+    height: 35px;
+    width: 40px;
+}
+#hamburger {
+    height: 35px;
+    width: 40px;
+}
+
+#top {
+    display: flex;
+    padding-top: 12px;
+}
+
+#right {
+    position: absolute;
+    right: 10px;
+    display: flex;
+}
+
+#left {
+    position: absolute;
+    left: 20px;
+}
+
+hr {
+    border:  solid #D5D8DB;  
+    border-width: thin;
+}
+
+.mid-text {
+    font-size: 35px;
+    font-weight: 600;
+    color: #3E4348;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mid {
+    text-align: center;
+    padding-top: 80px;
+}
+
+#mid img {
+    height: 65px;
+    width: 220px;
+}
+
+#pic {
+    height: 450px;
+    width: 600px;
+    display: block;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+#footer {
+    background-color: black;
+}
